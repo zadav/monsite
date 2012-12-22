@@ -1,0 +1,221 @@
+body{
+	background-image : url("../img/back2.jpg")
+}
+
+
+#global{
+	font-family : 'Myriad Pro',Verdana, serif;
+	font-size : 14px;
+	width:800px;
+	margin:auto;
+	padding : 0 5px;
+	background-color:#FFFFFF;
+	border : 1px dashed black;
+}
+
+#header{
+
+	height : 130px;
+	background-image : url("../img/banner.jpg");
+	margin-bottom: 10px;
+}
+
+
+/*******************/
+/* Styles du menu **/
+/******************/
+
+#menu{
+
+	height : 40px;
+}
+
+#menu ul{
+	padding:0;
+	margin:0;
+	list-style-type : none;
+}
+
+#menu ul li{
+	margin-left:2px;
+	float : left;
+}
+
+/******
+*SOCIAL
+*******/
+
+#social{
+height : 37px;
+display : block;
+margin:10px;
+}
+
+.social_item{
+float : right;
+
+}
+
+
+ /*******************/
+/* Page centrale   **/
+/********************/
+
+#page{
+	min-height :800px;
+	margin-left : 8px;
+}
+
+#page #main_image{
+	height :245px;
+	margin-left:15px;
+	margin-right:5px;
+	margin-top:10px;
+	width:200px;
+	float:left;
+	border : 1px solid black;
+	background-image : url("../img/photo.jpg")
+}
+
+#content{
+	padding-left:20px;
+	padding-right:20px;
+	text-align:justify;
+	width : 590px;
+	height :600px;
+	padding-top : 10px;
+	background : url('../img/bloc.jpg') no-repeat;
+	margin : 0 auto;
+}
+
+/********************/
+/* Pied de page	   **/
+/********************/
+
+#footer{
+	height :30px;
+	border : 1px solid black;
+	text-align:center;
+		font-size : 10 px;
+}
+
+
+#parcours_desc{
+float : left;
+padding : 3px;
+}
+
+#parcours_info{
+width:250px;
+height : 250px;
+float : right;
+}
+
+
+
+/**********************************************/
+/*** Redéfinition du style des tabs jquery*****/
+/*********************************************/
+
+li.ui-state-default{
+	font-size:10px;
+}
+
+h1.ui-state-active .ui-icon , h1.ui-state-hover .ui-icon{
+	display:none;
+}
+.ui-icon-triangle-1-e{
+	display:none;
+}
+
+div.ui-tabs-panel{
+	font-size:15px;
+	font-family:georgia;
+	font-style:italic;
+}
+
+#menu .ui-button{
+	width:194px;
+	font-size : 14px;
+	margin-top:2px;
+}
+
+h1 a {
+text-decoration : none;
+color : #5994f5;
+
+}
+
+#cv_select{
+display : block;
+margin-left : 0 auto;
+font-size : 24px;
+text-align : center;
+}
+
+
+
+.select_content{
+float : left;
+margin :0 5px;
+
+}
+
+.experience_bloc{
+display: block;
+clear: both;
+}
+
+.parcours_img{
+	float:left;
+	margin-right : 15px;
+}
+.parcours_info, .parcours_desc{
+	margin-left : 195px;
+}
+
+
+#cv_select ul{
+	list-style-type : none;
+	margin : 0 auto;
+	padding : 0px;
+	display:block;
+	
+}
+
+#cv_select ul li{
+	float:left;
+	margin-left: 5px;
+}
+
+#cv_select ul li a{
+	text-decoration : none;
+}
+
+div.tab
+{
+	margin-bottom : 10px;
+	padding-bottom : 15px;
+	border-bottom : 1px dashed black;
+	min-height :120px;	
+}
+
+div.tab h2{
+	margin-left : 186px;
+}
+
+#competences{
+	display:none;
+	clear : both;
+	margin-bottom : 20px;
+}
+
+#experiences{
+	clear : both;
+	margin-bottom : 20px;
+}
+
+#titre_page{
+	margin-bottom : 45px;
+	text-align : center;
+}
